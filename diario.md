@@ -8,3 +8,18 @@ Hace exactamente 4 años que inicié mi camino hacia la programacion con un burd
 
 ##### String
 Pero la conchasumadre string y la porqueria que no se puede cambiar, sino que tenes que crear una variable nueva. Alguien por favor lo actualiza asi podemos cambiar cuando querramos? Gracias
+
+
+#### 18/05/2017
+Tengo la mente dispersa y encima estoy re-aprendiendo arrays. Es algo dificil de digerir, dado que deje casi 2 semanas y ahora que retomo, tengo una laguna mental alli.
+
+
+```javascript
+function reusableFunction() {
+  console.log("Hi world");
+}
+
+reusableFunction();
+```
+
+Despues esta `push`, `shift`, `unshift` y `shift`
