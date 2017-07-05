@@ -23,3 +23,27 @@ reusableFunction();
 ```
 
 Despues esta `push`, `shift`, `unshift` y `shift`
+
+#### 05/07/2017
+
+Hice nuevamente el Code Golf y esta vez lo hice solo. Para aclarar, una vez lo hice con ayuda, ahora con media ayuda por que fui puliendo mi propio camino. 
+
+```javascript
+function golfScore(par, strokes) {
+  // Only change code below this line
+  if (strokes == 1)
+    return "Hole-in-one!";
+  else if (strokes <= par -2)
+    return "Eagle";
+  else if (strokes == par -1)
+    return "Birdie";
+  else if (strokes == par)
+    return "Par";
+  else if (strokes == par +1)
+    return "Bogey";
+  else if (strokes == par +2)
+    return "Double Bogey";
+  else return "Go Home!";
+  ```
+  
+  Me costo pero I did it..
